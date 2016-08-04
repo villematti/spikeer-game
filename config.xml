@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.koodiville.spikeer" version="0.0.5.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.koodiville.spikeer" version="0.0.5.1">
 
 	<name>the SPIKEER Game</name>
 	<description>Avoid touching spikes</description>
@@ -15,10 +15,7 @@
 
 	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
-	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
-	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
-	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="14" />
 	<preference name="target-device" value="universal" />
 
